@@ -1,0 +1,25 @@
+.carousel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &-arrow {
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+
+    & img {
+      width: 12px;
+      height: 27px;
+    }
+  }
+
+  & .swiper {
+    --swiper-navigation-size: 27px;
+    //--swiper-navigation-color: #FFFFFF;
+  }
+}

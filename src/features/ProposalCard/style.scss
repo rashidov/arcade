@@ -1,0 +1,22 @@
+.proposal_card {
+  border-radius: 25px;
+
+  &.purple {
+    background-color: #8858ed;
+    color: #ffffff;
+  }
+
+  &-title {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 70px;
+  }
+
+  &-text {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

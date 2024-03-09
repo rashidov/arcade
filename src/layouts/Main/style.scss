@@ -1,0 +1,19 @@
+.layout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  &-container {
+    position: relative;
+    overflow: hidden;
+    padding: 0 124px;
+    z-index: 1;
+  }
+}

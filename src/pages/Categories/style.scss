@@ -1,0 +1,16 @@
+.categories {
+  background-color: #232223;
+  padding-top: 200px;
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 66px;
+    justify-content: space-around;
+    padding-bottom: 80px;
+  }
+
+  &-discounts {
+    padding-bottom: 40px;
+  }
+}

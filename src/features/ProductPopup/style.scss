@@ -1,0 +1,38 @@
+.product_popup {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 64px;
+  cursor: default;
+
+  &-media {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-buy {
+    display: flex;
+    align-items: center;
+    //justify-content: flex-end;
+    gap: 12px;
+
+    &-price {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+
+  &-description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &-title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+}

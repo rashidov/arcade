@@ -1,0 +1,89 @@
+.footer {
+  color: #ffffff;
+
+  &-newsletter {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 22px;
+    }
+
+    &-description {
+      width: 247px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 61px;
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 7px;
+      }
+
+      &-input,
+      &-button {
+        width: 511px;
+        height: 50px;
+      }
+
+      &-input {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        background-color: transparent;
+        border: 3px solid #ffffff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+
+        &:active,
+        &:hover,
+        &:focus {
+          outline: 0;
+          outline-offset: 0;
+        }
+      }
+
+      &-button {
+        background-color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #000000;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+      }
+    }
+  }
+
+  &-collection {
+    position: relative;
+    width: 100%;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      position: absolute;
+      top: -100px;
+    }
+  }
+}
